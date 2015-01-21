@@ -1,22 +1,24 @@
 /* Set Your Own Margin & Padding */
-h2, h3, p {
-	margin: 0;
+h1, h2, h3{
+	font-family: 'Raleway', sans-serif;
+	margin: 10px;
+}
+
+p, em{
+	font-family: 'Raleway', sans-serif;
 }
 
 /* Layout for Style Tile*/
 section {
-	margin: 20px 0;
+	margin: 30px 0;
 }
 
 .color-1,
 .color-2,
 .color-3,
-.pattern-1,
-.pattern-2,
-.pattern-3, 
-.imagery-1,
-.imagery-2,
-.imagery-3 {
+.color-4,
+.pattern-1
+ {
 	border: 1px solid #000;
 	float: left;
 	margin: 0 10px;
@@ -27,11 +29,44 @@ section {
 /* Style Tile for Austin*/
 
 .color-1{
-	background: orange;
+	background: #4e5965;
 }
 
 .color-2{
-	background: green;
+	background: black;
+}
+
+.color-3{
+	background: #663c1f;
+}
+
+.color-4{
+	background: #d2bb38;
+}
+
+h1, h2{
+	font-weight: 800;
+}
+h1{
+	font-size: 2em;
+	color: #663c1f;
+}
+
+h2{
+	font-size: 1.25em;
+	color: #4e5965;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:visited{
+	color: #d2bb38;
+}
+
+a:hover{
+	color: #4e5965;
 }
 
 
