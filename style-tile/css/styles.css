@@ -25,6 +25,9 @@ section {
 	height: 50px;
 	width: 50px;
 }
+div p{
+	float: left;
+}
 
 /* Style Tile for Austin*/
 
