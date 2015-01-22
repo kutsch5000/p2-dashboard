@@ -89,7 +89,7 @@ table {
   height: 50px;
   width: 50px;
   text-align: center;
-  font: 500 1em/1em 'Raleway', sans-serif;
+  font: 400 1em/1em 'Raleway', sans-serif;
   color: black;
 }
 
@@ -97,23 +97,25 @@ table {
   height: 50px;
   width: 50px;
   text-align: center;
-  font: 500 1em/1em 'Raleway', sans-serif;
+  font: 400 1em/1em 'Raleway', sans-serif;
   color: black;
+  margin: 0 1px;
 }
 
 .week3 td {
   height: 50px;
   width: 50px;
   text-align: center;
-  font: 500 1em/1em 'Raleway', sans-serif;
+  font: 400 1em/1em 'Raleway', sans-serif;
   color: black;
+  margin: 0 1px;
 }
 
 .week4 td {
   height: 50px;
   width: 50px;
   text-align: center;
-  font: 500 1em/1em 'Raleway', sans-serif;
+  font: 400 1em/1em 'Raleway', sans-serif;
   color: black;
 }
 
@@ -121,12 +123,14 @@ table {
   height: 50px;
   width: 50px;
   text-align: center;
-  font: 500 1em/1em 'Raleway', sans-serif;
+  font: 400 1em/1em 'Raleway', sans-serif;
   color: black;
 }
 
-.days:hover {
-  background: #d2bb38;
-  color: #fff;
-  border-radius: 50%;
+.homework-color{
+  border-bottom: 3px solid #663c1f;
+}
+
+.function-color{
+  border-bottom: 3px solid #4e5965;
 }
