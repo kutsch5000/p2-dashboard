@@ -1,0 +1,91 @@
+body, h1, h2, h3, td, th, tr, a, p, table {
+  margin : 0;
+  padding: 0;
+}
+
+/* HEADER */
+/*--------------------------------------*/
+header {
+  background: #4e5965;
+  height: 50px;
+  text-align: center;
+  box-shadow: 0 10px 20px 5px rgba(0, 0, 0, .2);
+}
+
+header h1 {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 1em;
+  line-height: 50px;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.color-1{
+  background-color: #663c1f;
+}
+
+.color-2{
+  background-color: #4e5965;
+}
+
+header p{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: .5em;
+  color: black;
+}
+
+
+/* TABLE */
+/*--------------------------------------*/
+table {
+  width: 800px;
+  height: 500px;
+  margin: 65px auto;
+  box-shadow: 0 0 50px rgba(0, 0, 0, .2);
+  border-collapse: collapse;
+}
+
+/* WEEKS */
+/*--------------------------------------*/
+.weeks {
+  background-color: #d2bb38;
+  height: 20px;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: .5em;
+  color: #4e5965;
+  text-align: center;
+}
+
+.hours td {
+  height: 25px;
+  width: 25px;
+  text-align: center;
+  font: 400 .5em/.5em 'Raleway', sans-serif;
+  color: black;
+}
+.class{
+  background-color: #663c1f;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  font-size: .5em;
+  border-width: 0 2px;
+  border-style: solid;
+  border-color: white;
+}
+
+.topborder{
+  border-width: 2px 2px 0;
+  border-style: solid;
+  border-color: white;
+}
+
+.bottom{
+  vertical-align: bottom;
+}
+
+.top{
+  vertical-align: top;
+}
