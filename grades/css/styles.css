@@ -1,0 +1,31 @@
+table{
+  font-family: 'Raleway', sans-serif;
+}
+
+thead{
+  color: #663c1f;
+  font-size: 2em;
+  font-weight: 800;
+}
+
+td:nth-child(1){
+  color: #4e5965;
+  font-weight: 400;
+  padding: 2px 20px;
+}
+
+tr{
+  background-color: #d2bb38;
+}
+
+td:nth-child(2){
+  text-align: center;
+}
+
+td:nth-child(3){
+  text-align: center;
+}
+
+th{
+  padding: 2px 20px;
+}
