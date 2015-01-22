@@ -3,32 +3,22 @@ body, h1, h2, h3, td, th, tr, a, p, table {
   padding: 0;
 }
 
-
-
-/* BODY */
-/*--------------------------------------*/
-body {
-  background: #ccc;
-}
-
-
-
 /* HEADER */
 /*--------------------------------------*/
 header {
-  background: #292929;
+  background: #4e5965;
   height: 100px;
   text-align: center;
   box-shadow: 0 10px 20px 5px rgba(0, 0, 0, .2);
 }
 
 header h1 {
-  font: 3.5em/1em 'Lobster';
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 2em;
   line-height: 100px;
   color: #fff;
-  text-shadow: 0 0 10px #000;
 }
-
 
 
 /* TABLE */
@@ -36,13 +26,9 @@ header h1 {
 table {
   width: 400px;
   height: 400px;
-  background: #ebebeb;
   margin: 50px auto;
   border-collapse: collapse;
   box-shadow: 0 0 50px rgba(0, 0, 0, .2);
-  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, .2);
-  -moz-box-shadow: 0 0 50px rgba(0, 0, 0, .2);
-  -o-box-shadow: 0 0 50px rgba(0, 0, 0, .2);
 }
 
 
@@ -50,11 +36,12 @@ table {
 /* MONTH */
 /*--------------------------------------*/
 .month {
-  background: #FF3C31;
+  background: #663c1f;
   color: #fff;
-  font: 2em/1em 'Advent Pro', sans-serif;
-  height: 45px;
-  border-top: solid 10px #CF3128;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 2em;
+  height: 50px;
 }
 
 
@@ -62,10 +49,12 @@ table {
 /* WEEKS */
 /*--------------------------------------*/
 .weeks {
-  background: #fff;
+  background: #d2bb38;
   height: 40px;
-  font: 1em/1em 'Advent Pro', sans-serif;
-  color: #FF3C31;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 1.25em;
+  color: #4e5965;
   text-align: center;
 }
 
@@ -77,47 +66,44 @@ table {
   height: 50px;
   width: 50px;
   text-align: center;
-  font: 500 1em/1em 'Advent Pro', sans-serif;
-  color: #212121;
+  font: 500 1em/1em 'Raleway', sans-serif;
+  color: black;
 }
 
 .week2 td {
   height: 50px;
   width: 50px;
   text-align: center;
-  font: 500 1em/1em 'Advent Pro', sans-serif;
-  color: #212121;
+  font: 500 1em/1em 'Raleway', sans-serif;
+  color: black;
 }
 
 .week3 td {
   height: 50px;
   width: 50px;
   text-align: center;
-  font: 500 1em/1em 'Advent Pro', sans-serif;
-  color: #212121;
+  font: 500 1em/1em 'Raleway', sans-serif;
+  color: black;
 }
 
 .week4 td {
   height: 50px;
   width: 50px;
   text-align: center;
-  font: 500 1em/1em 'Advent Pro', sans-serif;
-  color: #212121;
+  font: 500 1em/1em 'Raleway', sans-serif;
+  color: black;
 }
 
 .week5 td {
   height: 50px;
   width: 50px;
   text-align: center;
-  font: 500 1em/1em 'Advent Pro', sans-serif;
-  color: #212121;
+  font: 500 1em/1em 'Raleway', sans-serif;
+  color: black;
 }
 
 .days:hover {
-  background: #FF3C31;
+  background: #d2bb38;
   color: #fff;
   border-radius: 50%;
-  -webkit-border-radius: 50%;
-  moz-border-radius: 50%;
-  -o-border-radius: 50%;
 }
