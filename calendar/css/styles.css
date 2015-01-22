@@ -7,7 +7,7 @@ body, h1, h2, h3, td, th, tr, a, p, table {
 /*--------------------------------------*/
 header {
   background: #4e5965;
-  height: 100px;
+  height: 50px;
   text-align: center;
   box-shadow: 0 10px 20px 5px rgba(0, 0, 0, .2);
 }
@@ -15,9 +15,9 @@ header {
 header h1 {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
-  font-size: 2em;
-  line-height: 100px;
-  margin-bottom: 10px;
+  font-size: 1em;
+  line-height: 50px;
+  margin-bottom: 5px;
   color: #fff;
 }
 
@@ -40,6 +40,7 @@ header h1 {
 header p{
   font-family: 'Raleway', sans-serif;
   font-weight: 400;
+  font-size: .5em;
   color: black;
 }
 
@@ -49,7 +50,7 @@ header p{
 table {
   width: 200px;
   height: 200px;
-  margin: 90px auto;
+  margin: 65px auto;
   border-collapse: collapse;
   box-shadow: 0 0 50px rgba(0, 0, 0, .2);
 }
@@ -64,7 +65,7 @@ table {
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 1em;
-  height: 50px;
+  height: 25px;
 }
 
 
@@ -73,7 +74,7 @@ table {
 /*--------------------------------------*/
 .weeks {
   background: #d2bb38;
-  height: 40px;
+  height: 20px;
   font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: .5em;
